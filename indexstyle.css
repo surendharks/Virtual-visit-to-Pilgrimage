@@ -1,0 +1,69 @@
+.mar{
+	
+	margin-top:30px !important;
+	
+}
+
+a:hover{
+	background-color: orange !important;
+}
+.mar a{
+
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 15px;
+}
+
+.footer{
+	margin-top: 50px;
+}
+#logo{
+	border-radius: 40px;
+}
+.container{
+	background-color: orangered;
+}
+#myForm{
+	margin-left: 40% !important;
+	width: 310px;
+	display: none;
+	box-shadow: 10px 5px 10px 10px;
+
+}
+
+.nav-link{
+	width: 60px;
+}
+
+#signup
+{
+   display: none;
+}
+#signin{
+  top: 10;
+  align-content: middle;
+  display: none;
+  background-size: cover;
+}
+.popup{
+  padding: 50px;
+  border-width: bold;
+  border-radius: 20px;
+      box-shadow: 0px 0px 0px 0px grey;
+
+ background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+	position: absolute;
+	top: 0;
+
+  	transform: translate(80px,150px);
+	
+}
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+.clspopup{
+
+    transform: 100px 100px scale(0.1);
+    visibility: hidden;
+
+}
